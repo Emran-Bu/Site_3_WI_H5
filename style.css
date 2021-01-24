@@ -1,0 +1,361 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*------Website Designed By-Emran_Hasan-------*/
+body{
+	background-color: #ECE2A8;
+	width:100%;
+}
+
+.place{}
+
+.place ul{
+	list-style-type: none;
+	position: fixed;
+	right: 0;
+	top:23%;
+}
+
+.place ul li{
+	/*float: left;*/
+}
+
+.place ul li a{}
+
+.place ul li a img{
+	height: 60px;
+	width: 60px;
+	padding: 5px;
+}
+
+/*end of placing icon*/
+.main_wrap{
+	width:100%;
+}
+
+.wrap{
+	width: 960px;
+	margin: 0 auto;
+	display: block;
+}
+
+.header_bg{
+	background-color: #FAB72A;
+	border-bottom: 5px solid #6B710E;
+}
+
+#header{
+	background-color: #FAB72A;
+	padding: 15px;
+	border-right: 2px solid #6B710E;
+	border-left: 2px solid #6B710E;
+	/*border-bottom: 5px solid #6B710E;*/
+}
+
+#header h2{
+	font-family: georgia;
+	color: #FFFFF3;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#header p{
+	font-family: georgia;
+	color: #788420;
+	margin-top: -15px;
+}
+
+/*search bar part*/
+
+#header form{
+float: right;
+margin-top: -28px;
+}
+
+#header input[type=search]{
+    padding: 5px;
+    width: 130px;
+    border: none;
+    border-radius: 9px;
+    background-color: #f3f3f3;
+    color: #000000;
+}
+
+
+#header input[type=submit]{
+    padding: 3px;
+    border: none;
+    border-radius: 4px;
+    background-color: #d25f5f;
+    color: white;
+}
+
+/*End of Header part*/
+
+.nav_bg{
+	background-color: #ECE2A8;
+	border-bottom: 5px solid #6B710E;
+}
+
+#nav{
+	background-color: #fff;
+	height: 38px;
+	/*border-bottom: 5px solid #6B710E;*/
+	border-right: 2px solid #6B710E;
+	border-left: 2px solid #6B710E;
+}
+
+#nav ul{
+	background-color: #fff;
+	list-style-type: none;
+	z-index: 999;
+}
+
+
+#nav ul li{
+	float: left;
+	border-right: 1px solid #6B710E;
+
+}
+
+#nav ul li:last-child{
+	border-right: none;
+
+}
+
+#nav ul li a{
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #9f716E;
+	display: block;
+	font-family: arial;
+	-webkit-transition: 0.2s all ease;
+	-moz-transition: 0.2s all ease;
+}
+
+#nav ul li a:hover{
+	color: #fff;
+	background-color: #6B710E;
+}
+
+	/*End of Menu Bar*/
+
+#nav ul li{
+	position: relative;
+}
+
+#nav ul li ul{
+	position: absolute;
+	left: -9999px;
+}
+
+#nav ul li:hover ul{
+	left:0;
+}
+
+#nav ul li ul li{
+	float: none;
+	border-right: none;
+	border-top: 1px solid #6B710E;
+	border-bottom: 1px solid #6B710E;
+	width:100px;
+}
+
+#nav ul li ul li{
+	position: relative;
+}
+
+#nav ul li ul li ul{
+	position: absolute;
+	top:-9999px;
+}
+
+#nav ul li ul li:hover ul{
+	top:-1px;
+	left:100px;
+}
+
+#nav ul li ul li ul li{	
+	border-left: 1px solid #6B710E;
+}
+
+#nav ul li ul li ul li ul{	
+	position: absolute;
+	display: none;
+}
+
+#nav ul li ul li ul li:hover ul{	
+	display:block;
+	width:100px;
+}
+	
+	/*End Of Multi Sub Menu Bar*/
+
+.slider_bg{
+	background-color: #222222;
+}
+
+
+#slider-wrapper
+{
+
+	border-left: 2px solid #6B710E;
+	border-right: 2px solid #6B710E;
+	/*width:none;*/
+    /*margin: none;*/
+	/*width:960px;*/
+	/*vertical-align: middle;*/
+	/*height: 280px;*/
+}
+
+
+
+.slider-wrapper{
+	width: 936px; /*for dark theme*/
+    /*width: 960px;*/ /*for default theme*/
+    margin: 0px auto;
+ }
+
+ 	/*End Of  slider Section*/
+	/*End Of  Image Section*/
+
+.content_bg{
+
+}
+
+#content_wrapper{
+	background-color: #fff;
+	border-top: 5px solid #6B710E;
+	overflow: hidden;
+	padding: 10px;
+
+	border-left: 2px solid #6B710E;
+	border-right: 2px solid #6B710E;
+}
+
+#content{
+	width:600px;
+	margin-right: 78px;
+	float: left;
+}
+
+#content h2{
+    color: #ceda17;
+    font-family: arial;
+    padding: 1px;
+    font-size: 20px;
+    background-color: #754c4c;
+    text-align: center;
+}
+
+#content p{
+	color: #6B710E;
+	text-align: justify;
+	font-size: 17px;
+	line-height: 20px;
+}
+
+#main_article_single{
+	margin-bottom: 19px;
+    border-bottom: 2px solid #635548;
+}
+
+#imgp_wrap{
+	margin-top: 8px;
+	margin-bottom: 18px;
+    overflow: hidden;
+}
+
+#imgp_wrap img{
+	float: left;
+    height: 123px;
+    width: 125px;
+    background-color: #c38b8b;
+    margin-right: 13px;
+    border: 3px solid #dca6a6;
+}
+
+#imgp_wrap p{
+	float: left;
+    width: 456px;
+    margin-top: 5px;
+}
+
+	/*End of content part*/
+
+#sidebar{
+	width:255px;
+	float: left;
+}
+
+#sidebar h2{
+
+    margin-left: -23px;
+    color: #ceda17;
+    font-family: arial;
+    padding: 1px;
+    font-size: 20px;
+    background-color: #754c4c;
+    text-align: center;
+}
+
+#sidebar ul{
+	list-style-type: square;
+}
+
+#sidebar ul li{
+	/*text-align: center;*/
+	border-bottom: 1px solid #969ef7;
+}
+
+#sidebar ul li:last-child{
+	border-bottom: none;
+}
+
+#sidebar ul li a{
+	text-decoration: none;
+	color: #6B710E;
+	text-align: justify;
+	font-size: 17px;
+
+}
+
+#sidebar ul li a:hover{
+	color: #005DCD;
+}
+
+
+iframe{
+border:3px solid #b1c1af;
+width:255px;
+}
+
+	/*End Of Sidebar part*/
+
+.footer_bg{
+	background-color: #5A4B3B;
+}
+
+#footer{
+	background-color: #5A4B3B;
+	padding: 5px;
+	text-align: center;
+}
+
+#footer p{
+	
+	color: #fff;
+
+}
+
+
+
+/*End Of Footer part*/
+
+
+
+				/*----------Website Designed By-Emran_Hasan-----------*/
+
+
+			
